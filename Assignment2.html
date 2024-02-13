@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgrey;
+            padding: 30px;
+            font-size: 20px;
+            height: 100vh;
+        }
+        #form{
+            display: grid;
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: grey;
+            padding: 10px;
+            height: 100vh;
+        }
+        label{
+            padding: 10px;
+        }
+        button{
+            color: white;
+            background-color: rgb(28, 168, 28);
+            border-radius: 20px;
+            width: 200px;
+            height: 40px;
+        }
+        input{
+            float: right;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+    <title>Assignment2</title>
+</head>
+
+<body>
+    <!--Qn)Create a Registration Form for Memoi Academy that comprises of the following details: 1.)Full name, 2.)Username,
+    3.)Email, 4.)Password, 5.)Gender, 6.)Age, 7.)Date of Birth-->
+    <h2>MEMOI BOOTCAMP</h2>
+    <h1>Registration Form</h1>
+
+    <form id="form">
+        <label for="Fullname">Fullname
+            <input type="text" placeholder="Fullname" />
+        </label>
+        <label for="Username">Username
+            <input type="text" placeholder="Username" />
+        </label>
+        <label for="Email">Email
+            <input type="email" placeholder="Email" />
+        </label>
+        <label for="password">Password
+            <input type="password" placeholder="Password" />
+        </label>
+        <label for="Gender">Gender:
+            <select>
+                <option>Choose your Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </label>
+        <label for="Age">Age
+            <input type="number" placeholder="Age"/>
+        </label>
+        <label for="Date of Birth">Date of Birth
+            <input type="date" placeholder="Date of Birth"/>
+        </label>
+        <div> </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
